@@ -55,6 +55,20 @@ npx skills add chakrit/learn --skill learn -g
 The CLI installs the skill for the agent integrations it detects. Run
 `npx skills check` later to check for updates.
 
+## Track learning progress separately
+
+Because `learn` may be invoked from any repository, keep your learning history in a
+separate, durable working folder or repository rather than in the project being used
+for the current lesson. This keeps progress available when you switch projects and
+avoids depending on harness-specific memory behavior (for example, some harnesses
+store memory per repository).
+
+If you do not already have a central location, create one such as
+`~/learning-progress/` or a private repository named `learning-progress`, and tell the
+agent to use it for lesson notes, retrieval results, and next-step tracking. If you
+already have a preferred central folder or repository, provide that path when you
+start learning.
+
 ## Direct use
 
 The complete, harness-neutral skill definition is [`skills/learn/SKILL.md`](skills/learn/SKILL.md).
