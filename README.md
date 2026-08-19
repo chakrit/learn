@@ -38,6 +38,23 @@ Start an ACE session in the project where you want to use the skill. Invoke it w
 /learn database indexing
 ```
 
+## Install with `npx skills`
+
+In a project that uses the standard Skills CLI, run:
+
+```sh
+npx skills add chakrit/learn --skill learn
+```
+
+Use `-g` for a user-level installation shared across projects:
+
+```sh
+npx skills add chakrit/learn --skill learn -g
+```
+
+The CLI installs the skill for the agent integrations it detects. Run
+`npx skills check` later to check for updates.
+
 ## Direct use
 
 The complete, harness-neutral skill definition is [`skills/learn/SKILL.md`](skills/learn/SKILL.md).
