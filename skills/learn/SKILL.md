@@ -9,6 +9,9 @@ description: >
 argument-hint: "[optional topic or question]"
 ---
 
+> **Archived.** `learn` is now maintained in [chakrit/skills](https://github.com/chakrit/skills/tree/main/skills/learn).
+> Install it and send feedback there; this repository no longer receives updates.
+
 # learn
 
 Use this skill to help the student take one small, useful learning step at a time.

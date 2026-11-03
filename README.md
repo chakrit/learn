@@ -1,3 +1,6 @@
+> **Archived.** `learn` is now maintained in [chakrit/skills](https://github.com/chakrit/skills/tree/main/skills/learn).
+> Install it and send feedback there; this repository no longer receives updates.
+
 # learn
 
 `learn` is an adaptive technical-tutoring skill for AI coding agents. It turns a
